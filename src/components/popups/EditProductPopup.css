@@ -1,0 +1,489 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 62.5%;
+}
+
+.editproductpopup-container {
+  position: relative;
+  top: -50rem;
+  width: 100vw;
+  height: 96vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  opacity: 1;
+  left: -116rem;
+}
+
+.editproduct-popup {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60rem;
+  height: 35rem;
+  background: #ffffff;
+  border-radius: 0.4rem;
+  z-index: none;
+  opacity: none;
+  display: flex;
+}
+
+.editproduct-popup h1 {
+  position: relative;
+  width: 35.5rem;
+  height: 5rem;
+  left: 7rem;
+  top: 4rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 5rem;
+  color: #000000;
+}
+
+.editproductformpopup {
+  display: flex;
+  flex-direction: column;
+}
+
+.editproductformpopup form {
+  position: relative;
+  left: -12rem;
+  top: 7rem;
+}
+
+.editproductformpopup form .editcompanyname {
+  display: flex;
+}
+
+.editproductformpopup form .editcompanyname input {
+  margin: 0.5rem 0.5rem;
+  height: 2rem;
+  width: 15rem;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.editproductformpopup form .editcompanyname input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.25rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.editproductformpopup form .editcategory {
+  display: flex;
+}
+
+.editproductformpopup form .editcategory input {
+  margin: 0.5rem 0.5rem;
+  height: 2rem;
+  width: 15rem;
+  border: none;
+  font-size: 1.5rem;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.editproductformpopup form .editcategory input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.25rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.editproductformpopup form .editaddlogourl {
+  display: flex;
+}
+
+.editproductformpopup form .editaddlogourl input {
+  margin: 0.5rem 0.5rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  width: 15rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.editproductformpopup form .editaddlogourl input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.25rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.editproductformpopup form .editlinkofproduct {
+  display: flex;
+}
+
+.editproductformpopup form .editlinkofproduct input {
+  margin: 0.5rem 0.5rem;
+  height: 2rem;
+  width: 15rem;
+  border: none;
+  font-size: 1.5rem;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.editproductformpopup form .editlinkofproduct input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.25rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.editproductformpopup form .editadddescription {
+  display: flex;
+}
+
+.editproductformpopup form .editadddescription input {
+  margin: 0.5rem 0.5rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  width: 15rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.editproductformpopup form .editadddescription input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.25rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.editproductformpopup form #loginpopup {
+  position: relative;
+  width: 24.5rem;
+  height: 4rem;
+  left: 0.2rem;
+  top: 1rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.editproductformpopup form #userloginpopup {
+  position: relative;
+  width: 24.5rem;
+  height: 4rem;
+  left: 0.2rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #36416a;
+}
+
+.editproductformpopup form .editproductbuttonpopup {
+  position: relative;
+  width: 10rem;
+  height: 3rem;
+  left: 0.2rem;
+  top: 2rem;
+  background: #36416a;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+
+.editproductformpopup form .editproductbuttonpopup span {
+  position: relative;
+  width: 7rem;
+  height: 2.5rem;
+  left: 1.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.editproduct-popup .editproducttext {
+  position: relative;
+  width: 25rem;
+  height: 35rem;
+  background: #36416a;
+}
+
+.editproduct-popup .editproducttext h1 {
+  position: relative;
+  width: 22rem;
+  height: 6rem;
+  left: 3rem;
+  top: 2rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 6rem;
+  color: #ffffff;
+}
+
+.editproduct-popup .editproducttext p {
+  position: relative;
+  width: 24.5rem;
+  height: 36rem;
+  left: 2rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 4.5rem;
+  color: #ffffff;
+  margin: 2rem;
+}
+
+@media (max-width: 486px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+  }
+
+  .editproductpopup-container {
+    position: relative;
+    top: auto;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    opacity: 1;
+  }
+
+  .editproduct-popup {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    max-width: 60rem;
+    height: auto;
+    background: #ffffff;
+    border-radius: 0.4rem;
+    z-index: none;
+    opacity: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .editproduct-popup h1 {
+    position: relative;
+    width: 90%;
+    max-width: 35.5rem;
+    height: 5rem;
+    margin: 2rem auto;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 5rem;
+    color: #000000;
+    text-align: center;
+  }
+
+  .editproductformpopup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .editproductformpopup form {
+    width: 90%;
+    max-width: 30rem;
+    margin: 2rem auto;
+  }
+
+  .editproductformpopup form .editcompanyname,
+  .editproductformpopup form .editcategory,
+  .editproductformpopup form .editaddlogourl,
+  .editproductformpopup form .editlinkofproduct,
+  .editproductformpopup form .editadddescription {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .editproductformpopup form input {
+    margin: 0.5rem 0.5rem;
+    height: 2rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaaaaa;
+  }
+
+  .editproductformpopup form input::placeholder {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #737373;
+  }
+
+  .editproductformpopup form #loginpopup,
+  .editproductformpopup form #userloginpopup {
+    width: 100%;
+    max-width: 24.5rem;
+    margin: 1rem 0.2rem;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #737373;
+    text-align: center;
+  }
+
+  .editproductformpopup form .editproductbuttonpopup {
+    width: 100%;
+    max-width: 10rem;
+    height: 3rem;
+    margin: 2rem auto;
+    background: #36416a;
+    border-radius: 2.5rem;
+    cursor: pointer;
+  }
+
+  .editproductformpopup form .editproductbuttonpopup span {
+    width: 100%;
+    max-width: 7rem;
+    height: 2.5rem;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .editproduct-popup .editproducttext {
+    position: relative;
+    width: 90%;
+    max-width: 25rem;
+    height: auto;
+    margin: 2rem auto;
+    background: #36416a;
+  }
+
+  .editproduct-popup .editproducttext h1 {
+    position: relative;
+    width: 90%;
+    max-width: 22rem;
+    height: 6rem;
+    margin: 2rem auto;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 6rem;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .editproduct-popup .editproducttext p {
+    position: relative;
+    width: 90%;
+    max-width: 24.5rem;
+    height: auto;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 4.5rem;
+    color: #ffffff;
+    margin: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 998px) {
+  * {
+    font-size: 55%;
+  }
+
+  .aeditproduct-popup {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 90%;
+  }
+
+  .editproduct-popup h1 {
+    width: 90%;
+    font-size: 3rem;
+    line-height: 4rem;
+    left: 0;
+    top: 4rem;
+  }
+
+  .editproductformpopup {
+    width: 100%;
+  }
+
+  .editproductformpopup form {
+    left: 0;
+    top: 2rem;
+  }
+
+  .editproductformpopup form input {
+    width: 90%;
+  }
+
+  .editproductformpopup form .editproductbuttonpopup {
+    top: 3rem;
+    left: 0;
+    width: 100%;
+  }
+}

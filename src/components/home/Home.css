@@ -1,0 +1,690 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 62.5%;
+}
+
+.homecontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.homenavbar {
+  position: relative;
+  width: 100vw;
+  height: 8%;
+  background: #36416a;
+}
+
+.homenavbar h1 {
+  position: relative;
+  width: 13.5rem;
+  height: 3.5rem;
+  left: 4rem;
+  top: 2rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 3.5rem;
+  color: #ffffff;
+}
+
+.homenavbar .logoutdetails {
+  display: flex;
+}
+
+.homenavbar .logoutdetails #logout {
+  position: relative;
+  width: 8.5rem;
+  height: 3rem;
+  left: 104rem;
+  top: -0.5rem;
+  cursor: pointer;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #ffffff;
+}
+
+.homenavbar .logoutdetails #hello {
+  position: relative;
+  width: 8.5rem;
+  height: 3rem;
+  left: 107rem;
+  top: -0.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #ffffff;
+}
+
+.homenavbar .logoutdetails img {
+  position: relative;
+  width: 5.5rem;
+  height: 5.5rem;
+  left: 109rem;
+  top: -1.7rem;
+  border-radius: 3rem;
+}
+
+.homenavbar #login {
+  position: relative;
+  width: 6.5rem;
+  height: 3rem;
+  left: 112rem;
+  top: -1.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.homenavbar #signup {
+  position: relative;
+  width: 50rem;
+  height: 4.5rem;
+  left: 115rem;
+  top: -1.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.8rem;
+  line-height: 3rem;
+  color: #ffffff;
+  border: 0.2rem solid #ffffff;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mainpagedesign {
+  width: 100vw;
+  height: 30%;
+  display: flex;
+}
+
+.mainpagedesign .designimage {
+  position: relative;
+  width: 50rem;
+  height: 30rem;
+  left: 10rem;
+}
+
+.mainpagedesign .designimage img {
+  position: relative;
+  top: 0rem;
+  width: 50rem;
+  height: 30rem;
+}
+
+.mainpagedesign .designtext h1 {
+  position: relative;
+  width: 30vw;
+  height: 15rem;
+  left: 22rem;
+  top: 7rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 147.2%;
+  color: #000000;
+}
+
+.mainpagedesign .designtext p {
+  position: relative;
+  width: 50vw;
+  height: 6.5rem;
+  left: 10rem;
+  top: 1.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 148.2%;
+  color: #6a6a6a;
+}
+
+.maincontent {
+  display: flex;
+  width: 100vw;
+  height: 60%;
+}
+
+.filtercontainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -3.5rem;
+}
+
+.maincontent .filters {
+  position: relative;
+  width: 20rem;
+  height: 21.5rem;
+  left: 1.5rem;
+  top: 1.5rem;
+  background: #ffffff;
+  box-shadow: 0px 0px 17.5051px rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+}
+
+.maincontent .filters .all {
+  position: relative;
+  width: 8rem;
+  height: 4rem;
+  left: 1rem;
+  top: 1rem;
+  background: #36416a;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+.maincontent .filters .all span {
+  position: relative;
+  width: 2.5rem;
+  height: 3rem;
+  left: 2.5rem;
+  top: 0.7rem;
+  cursor: pointer;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 147.2%;
+
+  color: #ffffff;
+}
+
+.maincontent .filters .fintech {
+  position: relative;
+  width: 8rem;
+  height: 4rem;
+  left: 10rem;
+  top: -3rem;
+  background: rgba(54, 65, 106, 0.15);
+  border-radius: 25.0428px;
+  cursor: pointer;
+}
+.maincontent .filters .fintech span {
+  position: relative;
+  width: 2.5rem;
+  height: 3rem;
+  left: 1rem;
+  top: 0.7rem;
+  cursor: pointer;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 147.2%;
+}
+
+.maincontent .filters .medtech {
+  position: relative;
+  width: 8rem;
+  height: 4rem;
+  left: 1rem;
+  top: -2rem;
+  background: rgba(54, 65, 106, 0.15);
+  border-radius: 25.0428px;
+  cursor: pointer;
+}
+.maincontent .filters .medtech span {
+  position: relative;
+  width: 2.5rem;
+  height: 3rem;
+  left: 1rem;
+  top: 0.7rem;
+  cursor: pointer;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 147.2%;
+}
+
+.maincontent .filters .b2b {
+  position: relative;
+  width: 8rem;
+  height: 4rem;
+  left: 10rem;
+  top: -6rem;
+  background: rgba(54, 65, 106, 0.15);
+  border-radius: 25.0428px;
+  cursor: pointer;
+}
+.maincontent .filters .b2b span {
+  position: relative;
+  width: 2.5rem;
+  height: 3rem;
+  left: 2rem;
+  top: 0.7rem;
+  cursor: pointer;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 147.2%;
+}
+
+.maincontent .filters .b2c {
+  position: relative;
+  width: 8rem;
+  height: 4rem;
+  left: 1rem;
+  top: -5rem;
+  background: rgba(54, 65, 106, 0.15);
+  border-radius: 25.0428px;
+  cursor: pointer;
+}
+.maincontent .filters .b2c span {
+  position: relative;
+  width: 2.5rem;
+  height: 3rem;
+  left: 1rem;
+  top: 0.7rem;
+  cursor: pointer;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 147.2%;
+}
+
+.filtercontainer .filtertext {
+  position: relative;
+  width: 20rem;
+  height: 7.5rem;
+  left: 1.5rem;
+  top: 1rem;
+  background: #36416a;
+  border-radius: 1.5rem;
+}
+
+.filtercontainer .filtertext h1 {
+  position: relative;
+  width: 18rem;
+  height: 5rem;
+  top: 1.5rem;
+  left: 2rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 5rem;
+  color: #ffffff;
+}
+
+.filtercontainer .filtertext span {
+  position: relative;
+  width: 11.5rem;
+  height: 2rem;
+  left: 2rem;
+  top: 0.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 147.2%;
+  color: #ffffff;
+}
+
+.productscontainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 90vw;
+}
+
+.productscontainer .addproductsarea {
+  position: relative;
+  width: 109.5rem;
+  height: 4rem;
+  left: 2rem;
+  top: -2.2rem;
+  background: #ffffff;
+  border: 0.5rem solid rgba(54, 65, 106, 0.35);
+  border-radius: 8px;
+}
+
+.productscontainer .addproductsarea #suggestions {
+  position: relative;
+  width: 15.5rem;
+  height: 3rem;
+  left: 3rem;
+  top: 0.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 147.2%;
+  color: #000000;
+}
+
+.productscontainer .addproductsarea #sortby {
+  position: relative;
+  width: 6.5rem;
+  height: 2.5rem;
+  left: 12rem;
+  top: 0.3rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 147.2%;
+  color: #8b8b8b;
+}
+
+.productscontainer .addproductsarea select {
+  position: absolute;
+  width: 12rem;
+  height: 3rem;
+  left: 32rem;
+  top: 0.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 147.2%;
+  color: #000000;
+  cursor: pointer;
+  border: none;
+}
+
+.productscontainer .addproductsarea img {
+  position: relative;
+  left: 22rem;
+  cursor: pointer;
+}
+
+.productscontainer .addproductsarea button {
+  position: relative;
+  width: 16rem;
+  height: 3.5rem;
+  left: 73rem;
+  top: 0.2rem;
+  background: #36416a;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.productscontainer .addproductsarea button span {
+  position: relative;
+  width: 15rem;
+  height: 3rem;
+  cursor: pointer;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 147.2%;
+  color: #ffffff;
+}
+
+.displayedproducts {
+  position: relative;
+  width: 81vw;
+  height: 18.5rem;
+  left: 2rem;
+  top: -1.5rem;
+  background: rgba(54, 65, 106, 0.15);
+  border-radius: 0.5rem;
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.displayedproducts .producturl {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  left: 4rem;
+  top: 0.5rem;
+}
+
+.displayedproducts .producturl img {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  left: -1rem;
+  border-radius: 1rem;
+}
+
+.displayedproducts .productdetails h1 {
+  position: relative;
+  width: 31rem;
+  height: 3rem;
+  left: 5rem;
+  top: 0.1rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 147.2%;
+  color: #36416a;
+}
+
+.displayedproducts .productdetails p {
+  position: relative;
+  width: 40rem;
+  height: 2.5rem;
+  left: 5rem;
+  top: -0.6rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 147.2%;
+  color: #000000;
+}
+
+.productdetails .filtersandcomments {
+  display: flex;
+}
+
+.productdetails .filtersandcomments .appliedfilters {
+  position: relative;
+  width: 9rem;
+  height: 2.5rem;
+  left: 5rem;
+  top: -0.5rem;
+  background: #c0ceff;
+  border-radius: 2rem;
+}
+
+.productdetails .filtersandcomments .edit {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  left: 940px;
+  top: 50px;
+  background: #36416a;
+  border-radius: 29px;
+}
+
+.productdetails .filtersandcomments .edit span {
+  position: relative;
+  width: 42px;
+  height: 29px;
+  left: 23px;
+  top: 1px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.productdetails .filtersandcomments .appliedfilters span {
+  position: relative;
+  width: 6rem;
+  height: 2.5rem;
+  left: 2.5rem;
+  top: 0.2rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 147.2%;
+  color: #000000;
+}
+
+.productdetails .filtersandcomments .comments img {
+  position: relative;
+  left: 27.5rem;
+  top: -0.5rem;
+}
+
+.productdetails .filtersandcomments .comments label {
+  position: relative;
+  width: 9rem;
+  height: 23rem;
+  left: 290px;
+  top: -1.3rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 147.2%;
+  color: #ababab;
+  cursor: pointer;
+}
+
+.upvotes {
+  position: relative;
+  width: 4rem;
+  height: 4.5rem;
+  left: 58rem;
+  top: 0.8rem;
+}
+
+.upvotes .upvoteslike {
+  position: relative;
+  width: 3rem;
+  height: 4rem;
+  left: 2rem;
+  background: #c7cbd6;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.upvotes .upvoteslike img {
+  position: relative;
+  height: 1rem;
+  width: 1rem;
+  left: 1rem;
+  top: 0.3rem;
+  cursor: pointer;
+}
+
+.upvotes .upvoteslike span {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  left: 1rem;
+  top: 0.4rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 147.2%;
+  color: #000000;
+}
+
+.upvotes .commentscount {
+  position: relative;
+  left: 1.5rem;
+  top: 1rem;
+}
+
+.upvotes .commentscount span {
+  position: relative;
+  width: 1rem;
+  height: 2.5rem;
+  top: -0.7rem;
+  right: 0.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 147.2%;
+  color: #000000;
+}
+
+.upvotes .commentscount img {
+  position: relative;
+  left: 0rem;
+  top: 0rem;
+}
+
+.commentsection {
+  display: flex;
+  flex-direction: column;
+}
+
+.commentsection .commentext {
+  position: relative;
+  width: 1rem;
+  height: 6.5rem;
+  top: 11rem;
+}
+
+.commentsection .commentext img {
+  position: relative;
+  left: 53rem;
+  top: -6rem;
+  cursor: pointer;
+}
+
+.commentsection .commentext input {
+  position: relative;
+  width: 103rem;
+  height: 4rem;
+  left: 3px;
+  top: -2rem;
+  left: -45rem;
+  background: #ffffff;
+  border: 0.3rem solid #c7cbd6;
+  border-radius: 4.5rem;
+}
+
+.commentsection .commentext input::placeholder {
+  position: relative;
+  width: 21rem;
+  height: 3.5rem;
+  left: 2rem;
+  top: 0.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 147.2%;
+  color: #ababab;
+}
+
+.commentsection .displayedcomments ul li {
+  position: relative;
+  width: 50rem;
+  height: auto;
+  left: -40.5rem;
+  top: 8rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 147.2%;
+  color: #999999;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

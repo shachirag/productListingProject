@@ -1,0 +1,263 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 62.5%;
+}
+
+.logincontainer {
+  height: 100vh;
+  width: 100vw;
+  background: #36416a;
+}
+
+.feedbacktext h1 {
+  position: relative;
+  width: 28rem;
+  height: 8rem;
+  left: 46rem;
+  top: 8rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 6rem;
+  line-height: 8rem;
+  color: #ffffff;
+}
+
+.feedbacktext p {
+  position: relative;
+  width: 64rem;
+  height: 3.5rem;
+  left: 46rem;
+  top: 8rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  color: #ffffff;
+}
+
+.loginform {
+  position: relative;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 50rem;
+  height: 32rem;
+  z-index: none;
+  opacity: none;
+  background: #ffffff;
+  box-shadow: 0rem 0.5rem 4rem rgba(0, 0, 0, 0.25);
+  border-radius: 3.3rem;
+}
+
+.loginform form {
+  position: relative;
+  left: 5rem;
+  top: 9rem;
+}
+
+.loginform form .useremail {
+  display: flex;
+  position: relative;
+  left: 1rem;
+}
+
+.loginform form .useremail input {
+  margin: 1rem 0.5rem;
+  height: 2rem;
+  width: 35rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+  font-size: 1.5rem;
+}
+
+.loginform form .useremail input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.1rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.loginform form .userpassword {
+  display: flex;
+  position: relative;
+  left: 1rem;
+}
+
+.loginform form .userpassword input {
+  margin: 1rem 0.5rem;
+  height: 2rem;
+  width: 35rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+  font-size: 1.5rem;
+}
+
+.loginform form .userpassword input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.1rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.loginform form p {
+  position: relative;
+  width: 24.5rem;
+  height: 2.5rem;
+  top: 1rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.loginform form p #usersignup {
+  position: relative;
+  width: 24.5rem;
+  height: 2.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+  cursor: pointer;
+}
+
+.loginform form .loginbutton {
+  position: relative;
+  width: 15rem;
+  height: 4.5rem;
+  left: 28rem;
+  top: 4rem;
+  background: #36416a;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+
+.loginform form .loginbutton span {
+  position: relative;
+  width: 7rem;
+  height: 3rem;
+  left: 5rem;
+  top: 0.8rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  cursor: pointer;
+  color: #ffffff;
+}
+@media screen and (max-width: 486px) {
+  .feedbacktext h1 {
+    font-size: 2rem;
+    line-height: 4rem;
+    left: 2rem;
+    top: 4rem;
+    width: auto;
+  }
+
+  .feedbacktext p {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    left: 2rem;
+    top: 4rem;
+    width: auto;
+  }
+
+  .loginform {
+    width: 60%;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+  }
+
+  .loginform form {
+    height: auto;
+  }
+
+  .loginform form .useremail input,
+  .loginform form .userpassword input {
+    width: 100%;
+  }
+
+  .loginform form .useremail input::placeholder,
+  .loginform form .userpassword input::placeholder {
+    width: auto;
+  }
+}
+@media (max-width: 998px) {
+  body {
+    font-size: 55%;
+  }
+
+  .feedbacktext h1 {
+    width: 22rem;
+    font-size: 4rem;
+    line-height: 6rem;
+    left: 50%;
+    top: 6rem;
+    transform: translateX(-50%);
+  }
+
+  .feedbacktext p {
+    width: 48rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    left: 50%;
+    top: 12rem;
+    transform: translateX(-50%);
+  }
+
+  .loginform {
+    width: 40rem;
+    height: 30rem;
+  }
+
+  .loginform form .useremail input,
+  .loginform form .userpassword input {
+    width: 30rem;
+  }
+
+  .loginform form p {
+    width: 20rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  .loginform form .loginbutton {
+    width: 12rem;
+    left: 28rem;
+  }
+
+  .loginform form .loginbutton span {
+    width: 5rem;
+    left: 3.5rem;
+    top: 0.8rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+}

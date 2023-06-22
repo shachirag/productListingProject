@@ -1,0 +1,308 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 62.5%;
+}
+
+.signupcontainer {
+  height: 100vh;
+  width: 100vw;
+  background: #36416a;
+}
+
+.feedbacktext h1 {
+  position: relative;
+  width: 28rem;
+  height: 8rem;
+  left: 46rem;
+  top: 8rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 6rem;
+  line-height: 8rem;
+  color: #ffffff;
+}
+
+.feedbacktext p {
+  position: relative;
+  width: 64rem;
+  height: 3.5rem;
+  left: 46rem;
+  top: 8rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  color: #ffffff;
+}
+
+.signupform {
+  position: relative;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 50rem;
+  height: 32rem;
+  z-index: none;
+  opacity: none;
+  background: #ffffff;
+  box-shadow: 0rem 0.5rem 4rem rgba(0, 0, 0, 0.25);
+  border-radius: 3.3rem;
+}
+
+.signupform form {
+  position: relative;
+  left: 5rem;
+  top: 5rem;
+}
+
+.signupform form .username {
+  display: flex;
+}
+
+.signupform form .username input {
+  margin: 1rem 0.5rem;
+  height: 2rem;
+  width: 35rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+  font-size: 1.5rem;
+}
+
+.signupform form .username input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.1rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.signupform form .useremail {
+  display: flex;
+  position: relative;
+  left: 1rem;
+}
+
+.signupform form .useremail input {
+  margin: 1rem 0.5rem;
+  height: 2rem;
+  width: 35rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+  font-size: 1.5rem;
+}
+
+.signupform form .useremail input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.1rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.signupform form .usermobile {
+  display: flex;
+  position: relative;
+  left: 1rem;
+}
+
+.signupform form .usermobile input {
+  margin: 1rem 0.5rem;
+  height: 2rem;
+  width: 35rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+  font-size: 1.5rem;
+}
+
+.signupform form .usermobile input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.1rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.signupform form .userpassword {
+  display: flex;
+  position: relative;
+  left: 1rem;
+}
+
+.signupform form .userpassword input {
+  margin: 1rem 0.5rem;
+  height: 2rem;
+  width: 35rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+  font-size: 1.5rem;
+}
+
+.signupform form .userpassword input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.1rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.signupform form p {
+  position: relative;
+  width: 24.5rem;
+  height: 2.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.signupform form p #userlogin {
+  position: relative;
+  width: 24.5rem;
+  height: 2.5rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+  cursor: pointer;
+}
+
+.signupform form .signupbutton {
+  position: relative;
+  width: 15rem;
+  height: 4.5rem;
+  left: 28rem;
+  background: #36416a;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+
+.signupform form .signupbutton span {
+  position: relative;
+  width: 7rem;
+  height: 3rem;
+  left: 4.5rem;
+  top: 0.8rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 486px) {
+  .feedbacktext h1 {
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+  }
+
+  .feedbacktext p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+
+  .signupform {
+    padding: 1.5rem;
+    width: 60%;
+  }
+
+  .signupform form .username input,
+  .signupform form .useremail input,
+  .signupform form .usermobile input,
+  .signupform form .userpassword input {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .signupform form .username input::placeholder,
+  .signupform form .useremail input::placeholder,
+  .signupform form .usermobile input::placeholder,
+  .signupform form .userpassword input::placeholder {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  .signupform form p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+
+  .signupform form p #userlogin {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+
+  .signupform form .signupbutton span {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 998px) {
+  .feedbacktext h1 {
+    width: 90%;
+    font-size: 4.5rem;
+    line-height: 6rem;
+    left: 2rem;
+    top: 6rem;
+  }
+
+  .feedbacktext p {
+    width: 90%;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    left: 2rem;
+    top: 12rem;
+  }
+
+  .signupform {
+    width: 90%;
+    height: auto;
+  }
+
+  .signupform form {
+    padding: 3rem 2rem;
+  }
+
+  .signupform form .signupbutton {
+    width: 100%;
+    left: 0;
+    transform: none;
+  }
+}

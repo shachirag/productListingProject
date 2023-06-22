@@ -1,0 +1,522 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 62.5%;
+}
+
+.signuppopup-container {
+  position: relative;
+  top: -39.5rem;
+  width: 102vw;
+  height: 100.8vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  opacity: 1;
+  left: -26.5rem;
+}
+
+.signup-popup {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60rem;
+  height: 35rem;
+  background: #ffffff;
+  border-radius: 0.4rem;
+  z-index: none;
+  opacity: none;
+  display: flex;
+}
+
+.signup-popup h1 {
+  position: relative;
+  width: 35.5rem;
+  height: 5rem;
+  left: 4rem;
+  top: 2rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 51px;
+  color: #000000;
+}
+
+.signupformpopup {
+  display: flex;
+  flex-direction: column;
+}
+
+.signupformpopup form {
+  position: relative;
+  left: -10rem;
+  top: 7rem;
+}
+
+.signupformpopup form .registerusername {
+  display: flex;
+}
+
+.signupformpopup form .registerusername img {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  left: 0px;
+  top: 0.6rem;
+}
+
+.signupformpopup form .registerusername input {
+  margin: 1rem 0.5rem;
+  height: 2rem;
+  width: 15rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+  font-size: 1.5rem;
+}
+
+.signupformpopup form .registerusername input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.25rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.signupformpopup form .registeruseremail {
+  display: flex;
+}
+
+.signupformpopup form .registeruseremail img {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  left: 0px;
+  top: 0.6rem;
+}
+
+.signupformpopup form .registeruseremail input {
+  margin: 1rem 0.5rem;
+  height: 2rem;
+  width: 15rem;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.signupformpopup form .registeruseremail input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.25rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.signupformpopup form .registerusermobile {
+  display: flex;
+}
+
+.signupformpopup form .registerusermobile img {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  left: 0px;
+  top: 0.6rem;
+}
+
+.signupformpopup form .registerusermobile input {
+  margin: 1rem 0.5rem;
+  height: 2rem;
+  width: 15rem;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.signupformpopup form .registerusermobile input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.25rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.signupformpopup form .registeruserpassword {
+  display: flex;
+}
+
+.signupformpopup form .registeruserpassword img {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  left: 0px;
+  top: 0.6rem;
+}
+
+.signupformpopup form .registeruserpassword input {
+  margin: 1rem 0.5rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  width: 15rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.signupformpopup form .registeruserpassword input::placeholder {
+  position: relative;
+  width: 13rem;
+  height: 2rem;
+  left: 0.5rem;
+  top: 0.25rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.signupformpopup form #loginpopup {
+  position: relative;
+  width: 24.5rem;
+  height: 4rem;
+  left: 0.2rem;
+  top: 1rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #737373;
+}
+
+.signupformpopup form #userloginpopup {
+  position: relative;
+  width: 24.5rem;
+  height: 4rem;
+  left: 0.2rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #36416a;
+}
+
+.signupformpopup form .signupbuttonpopup {
+  position: relative;
+  width: 10rem;
+  height: 3rem;
+  left: 0.2rem;
+  top: 2rem;
+  background: #36416a;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+
+.signupformpopup form .signupbuttonpopup span {
+  position: relative;
+  width: 7rem;
+  height: 3rem;
+  left: 2.5rem;
+  top: 0.1rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.signup-popup .text {
+  position: relative;
+  width: 25rem;
+  height: 35rem;
+  background: #36416a;
+}
+
+.signup-popup .text h1 {
+  position: relative;
+  width: 22rem;
+  height: 6rem;
+  left: 3rem;
+  top: 2rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 6rem;
+  color: #ffffff;
+}
+
+.signup-popup .text p {
+  position: relative;
+  width: 24.5rem;
+  height: 36rem;
+  left: 2rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 4.5rem;
+  color: #ffffff;
+  margin: 2rem;
+}
+
+@media (max-width: 998px) {
+  * {
+    font-size: 55%;
+  }
+
+  .signup-popup {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signup-popup h1 {
+    width: 90%;
+    font-size: 2.5rem;
+    line-height: 3.6rem;
+    left: 0;
+    top: 2rem;
+  }
+
+  .signupformpopup form {
+    left: 0;
+    top: 3rem;
+  }
+
+  .signupformpopup form input {
+    width: 90%;
+  }
+
+  .signupformpopup form .signupbuttonpopup {
+    top: 4rem;
+    left: 0;
+    width: 100%;
+  }
+
+  .signup-popup .text {
+    width: 90%;
+    height: auto;
+  }
+
+  .signup-popup .text h1 {
+    width: 90%;
+    left: 0;
+    top: 2rem;
+    font-size: 2.5rem;
+    line-height: 3.6rem;
+  }
+
+  .signup-popup .text p {
+    width: 90%;
+    left: 0;
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+  }
+}
+
+@media only screen and (max-width: 486px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+    font-size: 62.5%;
+  }
+
+  .signuppopup-container {
+    position: relative;
+    top: -39.5rem;
+    width: 102vw;
+    height: 100.8vh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    opacity: 1;
+    left: -26.5rem;
+  }
+
+  .signup-popup {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 60rem;
+    height: auto;
+    background: #ffffff;
+    border-radius: 0.4rem;
+    z-index: none;
+    opacity: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .signup-popup h1 {
+    position: relative;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.55rem;
+    color: #000000;
+    margin: 2rem 0;
+  }
+
+  .signupformpopup {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .signupformpopup form {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .signupformpopup form .registerusername,
+  .signupformpopup form .registeruseremail,
+  .signupformpopup form .registerusermobile,
+  .signupformpopup form .registeruserpassword {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+  .signupformpopup form .registerusername img,
+  .signupformpopup form .registeruseremail img,
+  .signupformpopup form .registerusermobile img,
+  .signupformpopup form .registeruserpassword img {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+  }
+
+  .signupformpopup form .registerusername input,
+  .signupformpopup form .registeruseremail input,
+  .signupformpopup form .registerusermobile input,
+  .signupformpopup form .registeruserpassword input {
+    margin: 0;
+    height: 2rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaaaaa;
+  }
+
+  .signupformpopup form .registerusername input::placeholder,
+  .signupformpopup form .registeruseremail input::placeholder,
+  .signupformpopup form .registerusermobile input::placeholder,
+  .signupformpopup form .registeruserpassword input::placeholder {
+    position: relative;
+    width: 100%;
+    height: 2rem;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #737373;
+  }
+
+  .signupformpopup form #loginpopup,
+  .signupformpopup form #userloginpopup {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #737373;
+  }
+
+  .signupformpopup form .signupbuttonpopup {
+    position: relative;
+    width: 10rem;
+    height: 3rem;
+    background: #36416a;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    margin: 2rem auto;
+  }
+
+  .signupformpopup form .signupbuttonpopup span {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .signup-popup .text {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #36416a;
+  }
+
+  .signup-popup .text h1 {
+    position: relative;
+    width: 100%;
+    height: 6rem;
+    text-align: center;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 6rem;
+    color: #ffffff;
+    margin: 2rem 0;
+  }
+
+  .signup-popup .text p {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #ffffff;
+    margin: 2rem;
+  }
+}
